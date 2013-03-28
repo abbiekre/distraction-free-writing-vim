@@ -16,7 +16,7 @@ endif
 
 let g:colors_name = "iawriter"
 
-hi Normal	    cterm=NONE ctermfg=black ctermbg=white gui=NONE guifg=black guibg=white
+hi Normal	    cterm=NONE ctermfg=black ctermbg=white gui=NONE guifg=black guibg=#f5f6f6
 hi NonText	    ctermfg=bg ctermbg=bg guifg=bg guibg=bg
 hi LineNr        cterm=italic ctermfg=black ctermbg=white gui=italic guifg=black guibg=white 
 hi Folded        cterm=bold ctermfg=black ctermbg=grey gui=bold guifg=black guibg=white
