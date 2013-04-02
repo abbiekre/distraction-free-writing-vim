@@ -41,7 +41,7 @@ function! DistractionFreeWriting()
 		set lines=40 columns=100  				 " size of the editable area
 		set linespace=5 									 " spacing between lines
 		set guioptions-=r 								 " remove righ scrollbar
-		set laststatus=0 									 " don't show status line
+		set laststatus=1 									 " don't show status line
 		set noruler 											 " don't show ruler
     if has("gui_macvim")
       set fuoptions=background:#00f5f6f6 " bakground color

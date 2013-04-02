@@ -23,7 +23,7 @@ hi Folded        cterm=bold ctermfg=black ctermbg=grey gui=bold guifg=black guib
 hi FoldColumn  ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 hi SpecialKey  ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 hi Search       ctermbg=grey guibg=grey86
-hi StatusLine   ctermbg=black ctermfg=bg cterm=NONE guifg=bg guibg=#333333
+hi StatusLine   ctermbg=black ctermfg=bg cterm=NONE guifg=grey86 guibg=white
 hi StatusLineNC ctermfg=bg ctermbg=grey cterm=NONE guifg=bg guibg=grey86 gui=NONE
 hi Visual       ctermfg=fg ctermbg=grey guifg=fg guibg=grey86 gui=NONE
 hi VisualNOS    ctermfg=bg ctermbg=grey guifg=bg guibg=grey86 gui=NONE
