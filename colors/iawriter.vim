@@ -29,7 +29,7 @@ hi Visual       ctermfg=fg ctermbg=grey guifg=fg guibg=grey86 gui=NONE
 hi VisualNOS    ctermfg=bg ctermbg=grey guifg=bg guibg=grey86 gui=NONE
 
 " Syntax highlighting scheme
-hi Comment	    cterm=italic ctermfg=black ctermbg=white gui=italic guifg=black guibg=#f5f6f6
+hi Comment	    cterm=italic ctermfg=black ctermbg=white gui=italic guifg=#93a1a1 guibg=#f5f6f6
 hi Constant	    ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 hi String	    ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 hi Character	    ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
@@ -67,8 +67,7 @@ hi Special	    cterm=italic ctermfg=black ctermbg=white gui=italic guifg=black g
 hi SpecialComment cterm=italic ctermfg=black ctermbg=white gui=italic guifg=black guibg=#f5f6f6
 " Debug defaults to Special
 
-hi Todo		    cterm=italic,bold ctermfg=black ctermbg=white gui=italic,bold guifg=black guibg=#f5f6f6
-" Ideally, the bg color would be white but VIM cannot print white on black!
+hi Todo		    cterm=italic,bold ctermfg=black ctermbg=white gui=bold guifg=#dc322f guibg=#f5f6f6
 hi Error		    cterm=bold,reverse ctermfg=black ctermbg=grey gui=bold,reverse guifg=black guibg=grey
 
 """"""""""""""""""""""""""""
