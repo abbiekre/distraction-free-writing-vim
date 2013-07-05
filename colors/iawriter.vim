@@ -93,8 +93,8 @@ if version >= 700
   hi SpellRare  guifg=magenta          gui=undercurl               ctermfg=magenta                   cterm=underline
   hi SpellCap 	guifg=fg               gui=undercurl 							 guisp=black cterm=underline
   " Completion menu
-  hi Pmenu                    guibg=black ctermbg=yellow
-  hi PmenuSel                 guibg=black ctermbg=lightcyan  cterm=NONE
+  hi Pmenu                    guibg=grey86 ctermbg=grey
+  hi PmenuSel                 guifg=grey86 guibg=black ctermbg=black cterm=NONE
   hi PmenuSbar                guibg=black ctermbg=lightcyan
   " Tab line
   hi TabLine                  guibg=grey70                                                                 cterm=underline
