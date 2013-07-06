@@ -89,9 +89,9 @@ hi ShowPairsHLe guibg=#ff8097 ctermbg=red
 if version >= 700
   hi MatchParen               guibg=grey86 ctermbg=lightgreen
   " Spell
-  hi SpellBad  	guifg=fg               gui=undercurl               ctermfg=red 		                   cterm=underline
-  hi SpellRare  guifg=magenta          gui=undercurl               ctermfg=magenta                   cterm=underline
-  hi SpellCap 	guifg=fg               gui=undercurl 							 guisp=black cterm=underline
+  hi SpellBad  	guifg=NONE gui=undercurl ctermfg=red cterm=underline
+  hi SpellRare  guifg=NONE gui=undercurl ctermfg=magenta cterm=underline
+  hi SpellCap 	guifg=NONE gui=undercurl guisp=black cterm=underline
   " Completion menu
   hi Pmenu                    guibg=grey86 ctermbg=grey
   hi PmenuSel                 guifg=grey86 guibg=black ctermbg=black cterm=NONE
