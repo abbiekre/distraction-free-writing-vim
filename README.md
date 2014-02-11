@@ -6,7 +6,7 @@ Vim's version of [iA Writer](http://www.iawriter.com/).
 
 2. Make `~/.vim/bundle` your current directory in Terminal or iTerm2.
 
-3. Copy and paste `git clone https://github.com/abbiekre/distraction-free-writing-vim.git`.
+3. Copy and paste `git clone https://github.com/abbiekre/vim-iawriter.git`.
 
 4. Copy and paste the following into your `~/.vimrc` file to specify the colorschemes and fonts to use in fullscreen mode and normal mode.
 
