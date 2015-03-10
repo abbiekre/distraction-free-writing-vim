@@ -36,7 +36,7 @@ hi Character	  ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 hi Number	      ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 " Boolean defaults to Constant
 hi Float		    ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
-hi Title	      ctermfg=black ctermbg=white cterm=bold guifg=black guibg=white gui=bold
+hi Title	      ctermfg=black ctermbg=white cterm=bold guifg=black guibg=#f5f6f6 gui=bold
 
 hi Identifier	  ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
 hi Function	    ctermfg=black ctermbg=white guifg=black guibg=#f5f6f6
