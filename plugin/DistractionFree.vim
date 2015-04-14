@@ -38,7 +38,7 @@ function! DistractionFreeWriting()
 		exec "set gfn=".escape(g:fullscreen_font,' ')
 
 		set background=light
-		set lines=40 columns=100  				 " size of the editable area
+		set lines=35 columns=100  				 " size of the editable area
 		set linespace=5 									 " spacing between lines
 		set guioptions-=r 								 " remove righ scrollbar
 		set laststatus=1 									 " don't show status line
